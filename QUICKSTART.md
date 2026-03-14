@@ -3,7 +3,7 @@
 ## 30-Second Setup
 
 ```bash
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 
 # Install all dependencies
 uv pip install pyomo gurobi qiskit qiskit-aer qiskit-optimization qiskit-algorithms dimod neal pandas psutil
@@ -119,7 +119,7 @@ Run multiple times to see variability.
 
 ```bash
 # Run from project root, not from src/
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 uv run src/pipeline.py  # ✅ Correct
 ```
 
@@ -223,7 +223,7 @@ DIMOD_NUM_READS = 500  # was 100
 ## File Structure
 
 ```
-pyhtonTest/
+knapsack-optimization/
 ├── config.py                    ← Edit this for configuration
 ├── pipeline.py                  ← Run this (main script)
 ├── knapsack_solver.py           (Task 1: Exact)

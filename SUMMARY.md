@@ -44,7 +44,7 @@
 
 **Before:**
 ```python
-input_dir = "/{path}/pyhtonTest/Input"  # Hardcoded
+input_dir = "/{path}/knapsack-optimization/Input"  # Hardcoded
 except Exception as e:
     print(f"Errore durante {name}: {e}")  # Generic
 ```

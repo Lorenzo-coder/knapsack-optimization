@@ -5,7 +5,7 @@
 This project has been organized with the following structure for better maintainability:
 
 ```
-pyhtonTest/
+knapsack-optimization/
 ├── src/                          # All Python source code
 ├── input/                        # Input data (JSON instances)
 ├── outputs/                      # Auto-generated output directories
@@ -126,7 +126,7 @@ outputs/
 
 ```bash
 # From project root
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 
 # Run pipeline
 uv run src/pipeline.py
@@ -170,9 +170,9 @@ from knapsack_solver import solve_knapsack_batch as task1
 **In `src/config.py`:**
 ```python
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))    # = src/
-PROJECT_ROOT = os.path.dirname(BASE_DIR)                 # = pyhtonTest/
-INPUT_DIR = os.path.join(PROJECT_ROOT, "input")          # = pyhtonTest/input/
-OUTPUT_BASE_DIR = os.path.join(PROJECT_ROOT, "outputs")  # = pyhtonTest/outputs/
+PROJECT_ROOT = os.path.dirname(BASE_DIR)                 # = knapsack-optimization/
+INPUT_DIR = os.path.join(PROJECT_ROOT, "input")          # = knapsack-optimization/input/
+OUTPUT_BASE_DIR = os.path.join(PROJECT_ROOT, "outputs")  # = knapsack-optimization/outputs/
 ```
 
 **Why this works:**
@@ -335,7 +335,7 @@ def generate_html_report(output_dir, all_jsons, report_rows):
 **Solution:**
 ```bash
 # Always run from project root
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 uv run src/pipeline.py
 ```
 

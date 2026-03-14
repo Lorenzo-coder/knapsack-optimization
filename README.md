@@ -9,7 +9,7 @@ A comprehensive Python pipeline for solving the binary knapsack problem using fo
 ## Project Structure
 
 ```
-pyhtonTest/
+knapsack-optimization/
 ├── src/                        # All source code
 │   ├── pipeline.py             # Main orchestration script
 │   ├── config.py               # Centralized configuration
@@ -54,7 +54,7 @@ pyhtonTest/
 
 ```bash
 # Navigate to the project directory
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 
 # Install dependencies using uv
 uv pip install \
@@ -99,7 +99,7 @@ Modify `src/config.py` to adjust behavior without changing task implementations.
 ### Run Full Pipeline
 
 ```bash
-cd /{path}/pyhtonTest
+cd /{path}/knapsack-optimization
 uv run src/pipeline.py
 ```
 
