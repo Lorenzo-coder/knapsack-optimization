@@ -3,7 +3,7 @@
 ## 30-Second Setup
 
 ```bash
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 
 # Install all dependencies
 uv pip install pyomo gurobi qiskit qiskit-aer qiskit-optimization qiskit-algorithms dimod neal pandas psutil
@@ -119,7 +119,7 @@ Run multiple times to see variability.
 
 ```bash
 # Run from project root, not from src/
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 uv run src/pipeline.py  # ✅ Correct
 ```
 

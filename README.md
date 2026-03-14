@@ -54,7 +54,7 @@ pyhtonTest/
 
 ```bash
 # Navigate to the project directory
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 
 # Install dependencies using uv
 uv pip install \
@@ -99,7 +99,7 @@ Modify `src/config.py` to adjust behavior without changing task implementations.
 ### Run Full Pipeline
 
 ```bash
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 uv run src/pipeline.py
 ```
 

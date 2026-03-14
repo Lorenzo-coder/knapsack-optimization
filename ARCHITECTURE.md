@@ -136,7 +136,7 @@ pipeline.py (entry point)
 ## Execution Flow
 
 ```
-1. User runs: cd /home/locode/Personale/QML/pyhtonTest && uv run src/pipeline.py
+1. User runs: cd /{path}/pyhtonTest && uv run src/pipeline.py
 
 2. pipeline.py::run_full_pipeline():
    a) Load configuration from src/config.py
@@ -466,7 +466,7 @@ Uses Unix signal `SIGALRM` to interrupt execution.
 
 When running `uv run src/pipeline.py` from the project root:
 
-1. Python's working directory is `/home/locode/Personale/QML/pyhtonTest/`
+1. Python's working directory is `/{path}/pyhtonTest/`
 2. Imports in `src/pipeline.py`:
    - `from config import ...` → Loads `src/config.py`
    - `from utils import ...` → Loads `src/utils.py`

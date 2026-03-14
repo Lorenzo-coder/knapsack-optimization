@@ -126,7 +126,7 @@ outputs/
 
 ```bash
 # From project root
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 
 # Run pipeline
 uv run src/pipeline.py
@@ -335,7 +335,7 @@ def generate_html_report(output_dir, all_jsons, report_rows):
 **Solution:**
 ```bash
 # Always run from project root
-cd /home/locode/Personale/QML/pyhtonTest
+cd /{path}/pyhtonTest
 uv run src/pipeline.py
 ```
 
