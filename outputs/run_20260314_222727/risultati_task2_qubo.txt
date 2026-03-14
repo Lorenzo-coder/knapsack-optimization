@@ -1,0 +1,37 @@
+REPORT RISULTATI - TASK 2 (QUBO-STYLE)
+==================================================
+
+FILE: knapsack_data.json
+  Selected items: ['2', '3', '4']
+  Valore Totale: 15
+  Peso Totale: 9 / 10
+  Feasible: YES
+----------------------------------------
+
+FILE: knapsack_data_10.json
+  Selected items: ['2', '5', '6', '7', '8', '9']
+  Valore Totale: 372
+  Peso Totale: 178 / 186
+  Feasible: YES
+----------------------------------------
+
+FILE: knapsack_data_20.json
+  Selected items: ['5', '8', '9', '11', '12', '13', '16', '17', '18', '19', '20']
+  Valore Totale: 717
+  Peso Totale: 433 / 442
+  Feasible: YES
+----------------------------------------
+
+FILE: knapsack_data_50.json
+  Selected items: ['1', '3', '7', '9', '10', '12', '13', '14', '15', '16', '20', '23', '24', '25', '27', '29', '30', '31', '33', '35', '41', '42', '43', '47', '48', '49']
+  Valore Totale: 1798
+  Peso Totale: 1056 / 1057
+  Feasible: YES
+----------------------------------------
+
+FILE: knapsack_data_6.json
+  Selected items: ['3']
+  Valore Totale: 96
+  Peso Totale: 88 / 104
+  Feasible: YES
+----------------------------------------

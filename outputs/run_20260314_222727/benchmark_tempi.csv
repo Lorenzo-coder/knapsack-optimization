@@ -1,0 +1,5 @@
+Task,Duration (s),Memory (MB),Status,Output_File
+Task 1 - Classico Esatto,0.12,8.9492,Success,/home/locode/Personale/QML/pyhtonTest/outputs/run_20260314_222727/risultati_task1.txt
+Task 2 - QUBO (Gurobi/HiGHS),1.31,35.8281,Success,/home/locode/Personale/QML/pyhtonTest/outputs/run_20260314_222727/risultati_task2_qubo.txt
+Task 3 - Qiskit Simulation,360.03,223.6367,Success,/home/locode/Personale/QML/pyhtonTest/outputs/run_20260314_222727/risultati_task3_qiskit.txt
+Task 4 - Dimod Annealing,249.98,1737.25,Success,/home/locode/Personale/QML/pyhtonTest/outputs/run_20260314_222727/risultati_task4_dimod.txt

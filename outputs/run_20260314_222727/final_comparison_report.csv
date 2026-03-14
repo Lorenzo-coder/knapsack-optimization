@@ -1,0 +1,8 @@
+Instance,T1_Exact,T2_QUBO,T3_Qiskit,T4_Dimod,Gap_T1_T4_(%),Status
+knapsack_data.json,15.0,15.0,15.0,15.0,0.0,✅ Optimal
+knapsack_data_10.json,372.0,372.0,372.0,329.0,11.56,⚠️  Good
+knapsack_data_100.json,3647.0,0,0,2408.0,33.97,❌ Poor
+knapsack_data_1000.json,0,0,0,536.0,0,⏭️  Skipped
+knapsack_data_20.json,717.0,717.0,0,607.0,15.34,⚠️  Good
+knapsack_data_50.json,1798.0,1798.0,0,1331.0,25.97,❌ Poor
+knapsack_data_6.json,96.0,96.0,91.0,96.0,0.0,✅ Optimal

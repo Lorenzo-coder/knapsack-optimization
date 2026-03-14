@@ -1,0 +1,23 @@
+REPORT RISULTATI - TASK 3 (QISKIT SIMULATION)
+==================================================
+
+FILE: knapsack_data.json
+  Selected items: ['2', '3', '4']
+  Valore Totale: 15
+  Peso Totale: 9 / 10
+  Method: Greedy Heuristic (Emergency Fallback)
+----------------------------------------
+
+FILE: knapsack_data_10.json
+  Selected items: ['2', '5', '6', '7', '8', '9']
+  Valore Totale: 372
+  Peso Totale: 178 / 186
+  Method: Greedy Heuristic (Emergency Fallback)
+----------------------------------------
+
+FILE: knapsack_data_6.json
+  Selected items: ['4']
+  Valore Totale: 91
+  Peso Totale: 83 / 104
+  Method: Greedy Heuristic (Emergency Fallback)
+----------------------------------------

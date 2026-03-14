@@ -43,8 +43,6 @@ env/
 *.sublime-workspace
 
 # Project-specific
-outputs/run_*/
-outputs/
 *.log
 .pytest_cache/
 .coverage
