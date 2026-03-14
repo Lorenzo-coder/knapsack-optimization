@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Project-specific
+outputs/run_*/
+outputs/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Sensitive files
+*.key
+*.pem
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv (Python package manager)
+.venv/
+uv.lock  # Optional: you might want to track this for reproducibility
+
+# Gurobi
+gurobi.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
